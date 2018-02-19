@@ -12,11 +12,18 @@ var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3);
 
 }
-function cuatro() {
+function sin() {
 
 var num = document.getElementById("n1");
 
-num.value = Math.pow(num.value, 4);
+num.value = Math.sin(num.value);
+
+}
+  function cuatro() {
+
+var num = document.getElementById("n1");
+
+num.value = Math.sin(num.value,4);
 
 }
 
@@ -32,6 +39,7 @@ Number:
 
 <button onclick="cube()"> x^3 </button>
 <button onclick="cuatro()"> x^4 </button>
+<button onclick="sin()"> sin </button>
 
 </body>
 <h1>Calculadora de Ovidio Navarro Pedrosa </h1>
